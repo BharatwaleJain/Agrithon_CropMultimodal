@@ -4,5 +4,5 @@ albumentations>=1.3.0
 scikit-learn>=1.0.0
 numpy>=1.21.0
 matplotlib>=3.5.0
-Pillow>=8.0.0
-streamlit
+pillow>=8.0.0
+streamlit>=1.28.0

@@ -3,25 +3,23 @@
 ## Project Directory
 ```
 project/
-├── image_dataset/            # Original dataset for processing
-├── coco_export/              # COCO format export from CVAT
-│   ├── annotations/
-│   │   └── instances_default.json
-│   └── images/
-├── requirements.txt          # Python dependencies
-├── structure.py              # Convert COCO to YOLOv8 format
-├── yolov8_disease_dataset/   # Organized dataset (train/val split)
-├── augmentation.py           # Apply data augmentation with segmentation masks
-├── augmented_disease_dataset/ # Final augmented dataset for training
-├── train.py                  # Train YOLOv8s segmentation model
-├── runs/                     # Training outputs and predictions
-│   ├── detect/
-│   │   ├── train/            # Training results and model weights
-│   │   └── predict/          # Saved annotated images with segmentation masks
-├── validation.py             # Validate segmentation model performance
-├── test.py                   # Test segmentation model on images
-└── web_detector.py           # Streamlit web interface
-
+├── image_dataset/              # Original dataset for processing
+├── annotations/                # COCO format annotation from CVAT
+│   └── instances_default.json
+├── images/default/             # COCO image export from CVAT
+├── requirements.txt            # Python dependencies
+├── structure.py                # Convert COCO to YOLOv8 format
+├── yolov8_disease_dataset/     # Organized dataset (train/val split)
+├── augmentation.py             # Apply data augmentation with segmentation masks
+├── augmented_disease_dataset/  # Final augmented dataset for training
+├── train.py                    # Train YOLOv8s segmentation model
+├── runs/                       # Training outputs and predictions
+│   ├── detect/ 
+│   │   ├── train/              # Training results and model weights
+│   │   └── predict/            # Saved annotated images with segmentation masks
+├── validation.py               # Validate segmentation model performance
+├── test.py                     # Test segmentation model on images
+└── web_detector.py             # Streamlit web interface
 ```
 
 ## Commands to Run
