@@ -1,0 +1,5 @@
+path: ./yolov8_insect_dataset
+train: images/train
+val: images/val
+nc: 1
+names: ['Insect']
