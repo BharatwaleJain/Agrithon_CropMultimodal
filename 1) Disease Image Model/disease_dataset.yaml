@@ -1,0 +1,5 @@
+path: ./yolov8_disease_dataset
+train: images/train
+val: images/val
+nc: 1
+names: ['Disease Spot']
